@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('path-to-your-cake-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.slideshow {
+    position: relative;
+    width: 80%;
+    margin: auto;
+}
+
+.slide {
+    display: none;
+    font-size: 1.5em;
+}
+
+.slide.active {
+    display: block;
+}
